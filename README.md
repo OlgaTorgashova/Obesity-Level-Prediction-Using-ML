@@ -1,4 +1,4 @@
-# Estimating obesity levels using machine learning
+# Estimating Obesity Levels Using Machine Learning
 
 In the project, the classification problem of obesity level prediction is investigated using the dataset which contains eating habits and physical conditions in individuals from Colombia, Peru, and Mexico.
 
