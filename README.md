@@ -1,8 +1,17 @@
 # Estimating obesity levels using machine learning
 
 In the project, the classification problem of obesity level prediction is investigated using the dataset which contains eating habits and physical conditions in individuals from Colombia, Peru, and Mexico.
-The dataset contains 7 classes: 1 – Insufficient_Weight, 2 – Normal_Weight, 3 – Obesity_Type_I, 4 – Obesity_Type_II, 5 – Obesity_Type_III,
-6 – Overweight_Level_I, 7 – Overweight_Level_II
+
+The dataset 
+
+The dataset contains 7 classes:
+1 – Insufficient_Weight,
+2 – Normal_Weight,
+3 – Obesity_Type_I,
+4 – Obesity_Type_II,
+5 – Obesity_Type_III,
+6 – Overweight_Level_I,
+7 – Overweight_Level_II
 
 The first part of the project is the data visualization using histograms, scatter plots, and boxplots. In the second part, fore classification models were developed: Linear Regression, KNN, Decision Tree, and Support Vector Classifier.
 For hyperparameter optimization, the Python grid search function was used. For the feature shrinkage, there were developed functions of the backward stepwise feature selection and visualization of a performance metric surface in the space of two hyperparameters: feature number and the most important hyperparameter. For performance analysis, accuracy, F1 score, and confusion matrix were used.
