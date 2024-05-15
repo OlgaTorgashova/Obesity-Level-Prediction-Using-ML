@@ -1,6 +1,6 @@
 # Estimating Obesity Levels Using Machine Learning
 
-In the project, the classification problem of obesity level prediction is investigated using the dataset which contains eating habits and physical conditions in individuals from Colombia, Peru, and Mexico.
+In the project, the classification problem of obesity level prediction is investigated using the dataset which contains eating habits and physical conditions in individuals from Colombia, Peru, and Mexico [1].
 
 The link to the dataset: https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 
@@ -19,7 +19,7 @@ The first model obtained for each classifier assists in a better understanding o
 
 For the feature shrinkage, there were developed functions of the backward stepwise feature selection and visualization of a performance metric surface in the space of two hyperparameters: feature number and one of the using model hyperparameter (the most important). The model hyperparameters are optimized using the surface of an Error (a Misclassification Rate) and F1 score. After the feature shrinkage and hyperparameter tuning, the model fitting was done. For performance analysis, accuracy, F1 score, and confusion matrix were used.
 
-KNN, Decision Tree, and Support Vector Classifiers have approximately the same performance, but Decision Tree’s performance is slightly higher. The analysis of confusion matrices shows that the Decision Tree classifier is the most efficient because it predicts all the classes well. For all the classifiers, the misclassifications belong to the neighbor classes, and all the classes are arranged in the weight ascending order and most likely can be neglected.
+KNN, Decision Tree, and Support Vector Classifiers have approximately the same performance, but Decision Tree’s performance is slightly higher. The analysis of confusion matrices shows that the Decision Tree classifier is the most efficient. In [2-5] the similar performance was obtained for the same dataset. 
 
 **References**
 
