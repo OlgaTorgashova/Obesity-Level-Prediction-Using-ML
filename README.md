@@ -13,11 +13,11 @@ The dataset contains 7 classes:
 6 – Overweight_Level_I,
 7 – Overweight_Level_II
 
-The first part of the project is the data visualization using histograms, scatter plots, and boxplots. In the second part, fore classification models were developed: Linear Regression, KNN, Decision Tree, and Support Vector Classifier.
-
-For hyperparameter optimization, the Python grid search function was used. For the feature shrinkage, there were developed functions of the backward stepwise feature selection and visualization of a performance metric surface in the space of two hyperparameters: feature number and the most important hyperparameter. For performance analysis, accuracy, F1 score, and confusion matrix were used.
+The first part of the project is the data visualization using histograms, scatter plots, and boxplots. In the second part, four classification models were developed: Linear Regression, KNN, Decision Tree, and Support Vector Classifier.
 
 The first model obtained for each classifier assists in a better understanding of hyperparameter selection. Some of the hyperparameters do not significantly influence the performance. In the project, two algorithms of hyperparameter selection were used. The first algorithm was used for the logistic regression: error and F1 score vs the number of features were investigated. Using the obtained feature set, the other hyperparameter tuning was done. For the other three classifiers, the second approach was used. The first classifier was constructed for all the features, and using the grid the most significant hyperparameter was determined. The feature selection was provided in the space of the number of features and the hyperparameter.
+
+For the feature shrinkage, there were developed functions of the backward stepwise feature selection and visualization of a performance metric surface in the space of two hyperparameters: feature number and one of the using model hyperparameter (the most important). The model hyperparameters are optimized using the surface of an Error (a Misclassification Rate) and F1 score. After the feature shrinkage and hyperparameter tuning, the model fitting was done. For performance analysis, accuracy, F1 score, and confusion matrix were used.
 
 KNN, Decision Tree, and Support Vector Classifiers have approximately the same performance, but Decision Tree’s performance is slightly higher. The analysis of confusion matrices shows that the Decision Tree classifier is the most efficient because it predicts all the classes well. For all the classifiers, the misclassifications belong to the neighbor classes, and all the classes are arranged in the weight ascending order and most likely can be neglected.
 
